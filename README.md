@@ -16,7 +16,7 @@ log_statement = 'all'
 logging_collector = on
 ````
 * Restart PostgreSQL
-* Find where pg_log and the newly made LOG file has been created
+* Find where the pg_log directory is and where the newly made 'commands' LOG file has been created
 * If examining a log on a remote server, virtual machine, vagrant/docker install you will need to mount the log file locally and then select it as a local file.
 * Begin using the monitoring tool!
 
@@ -26,7 +26,7 @@ This should run on Visual Studio 2015+ and build without any problems.
 
 ### Building on MacOS or Linux ###
 
-This should be perfectly fine using the Mono build tools. Learn more about xbuild, Mono's msbuild equivalent, here:
+This should build perfectly fine using the Mono build tools. Learn more about Mono's xbuild tool, equivalent to Microsoft's msbuild tool, here:
 
 http://www.mono-project.com/docs/tools+libraries/tools/xbuild/
 

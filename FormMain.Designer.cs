@@ -46,6 +46,7 @@
             this.watcher = new System.Windows.Forms.Timer(this.components);
             this.contextMenuLogs = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.clearToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.copyValueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuMain.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.contextMenuLogs.SuspendLayout();
@@ -174,16 +175,24 @@
             // contextMenuLogs
             // 
             this.contextMenuLogs.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.clearToolStripMenuItem});
+            this.clearToolStripMenuItem,
+            this.copyValueToolStripMenuItem});
             this.contextMenuLogs.Name = "contextMenuLogs";
-            this.contextMenuLogs.Size = new System.Drawing.Size(119, 26);
+            this.contextMenuLogs.Size = new System.Drawing.Size(153, 70);
             // 
             // clearToolStripMenuItem
             // 
             this.clearToolStripMenuItem.Name = "clearToolStripMenuItem";
-            this.clearToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.clearToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.clearToolStripMenuItem.Text = "Clear All";
             this.clearToolStripMenuItem.Click += new System.EventHandler(this.clearToolStripMenuItem_Click);
+            // 
+            // copyValueToolStripMenuItem
+            // 
+            this.copyValueToolStripMenuItem.Name = "copyValueToolStripMenuItem";
+            this.copyValueToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.copyValueToolStripMenuItem.Text = "Copy Value";
+            this.copyValueToolStripMenuItem.Click += new System.EventHandler(this.copyValueToolStripMenuItem_Click);
             // 
             // FormMain
             // 
@@ -228,6 +237,7 @@
         private System.Windows.Forms.Timer watcher;
         private System.Windows.Forms.ContextMenuStrip contextMenuLogs;
         private System.Windows.Forms.ToolStripMenuItem clearToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem copyValueToolStripMenuItem;
     }
 }
 

@@ -143,5 +143,15 @@ namespace Ocean
             FormAbout form = new FormAbout();
             form.Show();
         }
+
+        private void copyValueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(listLogItems.SelectedItems.Count > 0) {
+                var item = listLogItems.SelectedItems[0];
+                Clipboard.SetText(item.SubItems[2].Text);
+            } else {
+                MessageBox.Show("Select a row first!");
+            }
+        }
     }
 }

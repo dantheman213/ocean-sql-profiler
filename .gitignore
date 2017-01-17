@@ -1,0 +1,8 @@
+.DS_Store
+[Tt]humbs.db
+
+bin/
+obj/
+.vs/
+
+node_modules/

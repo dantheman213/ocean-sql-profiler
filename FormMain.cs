@@ -35,6 +35,7 @@ namespace Ocean
                 logFile = Properties.Settings.Default.Log_Command;
 
                 listLogItems.Items.Clear();
+                firstRun = true;
 
                 watcher.Interval = 1000;
                 watcher.Start();

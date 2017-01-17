@@ -32,9 +32,10 @@ namespace Ocean
         private void toolStripLabel1_Click(object sender, EventArgs e)
         {
             if(!String.IsNullOrEmpty(Properties.Settings.Default.Log_Command)) {
-
                 logFile = Properties.Settings.Default.Log_Command;
-               
+
+                listLogItems.Items.Clear();
+
                 watcher.Interval = 1000;
                 watcher.Start();
 

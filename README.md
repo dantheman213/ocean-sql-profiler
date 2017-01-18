@@ -1,6 +1,8 @@
 # Ocean SQL Profiler #
 Cross-platform SQL profiler for PostgreSQL 9.3+. View your queries and functions being run in real-time in a simple to use GUI.
 
+![screenshot](http://i.imgur.com/oFqnQYn.jpg "Screenshot on Windows 10")
+
 ### Features ###
 
 * View your PostgresSQL functions and queries being executed in real-time GUI

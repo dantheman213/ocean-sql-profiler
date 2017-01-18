@@ -67,6 +67,7 @@ This is a small project that I hope will grow over time with more contributers. 
 * Provide searching, filtering, sorting features to the Ocean's main ListView widget containing the log data
 * Better copy/paste functionality
 * Better looking action toolbar with more commands and icons attached to text buttons
+* Rotate Postgres logs and find a more efficient way to stream data out of logs than what is currently being used
 * More menu options and actions
 * Wizard to help setup a target PostgreSQL installation with the right config file changes so that the SQL Profiler will be able to function with less manual configuration changes by the user
 * Create and manage cross-platform executables so that people don't have to build Ocean themselves, if they don't want too

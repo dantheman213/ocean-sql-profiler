@@ -4,5 +4,6 @@
 bin/
 obj/
 .vs/
+*.userprefs
 
 node_modules/

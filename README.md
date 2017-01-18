@@ -54,6 +54,22 @@ http://www.mono-project.com/docs/tools+libraries/tools/xbuild/
 
 ### Contributing ###
 
-This is a small project for me. If you'd like to help improve this and turn it into a full application or just add some new features --please feel free to submit a pull request.
+This is a small project that I hope will grow over time with more contributers. If you'd like to help improve this and turn it into a full application or just add some new features --please feel free to submit a pull request.
+
+#### Want to help? Wondering where to start? Here's what I'd like to add in coming releases ####
+
+* Examine pg_stats_statements to see what further information could be integrated into Ocean
+* Examine pg_stats to see what further information could be integrated into Ocean
+* Examine pg_log directory and all *.logs beneath it to see if any data can be aggregated and integrated into Ocean
+* Examine pg_top and see if any data can be exported, aggregated, and integrated into Ocean
+* Research and see if the EXPLAIN/ANALYZE command could be used to get further details about a query and aggregate the data into Ocean
+* How to calculate duration of queries/functions being run in DB
+* Provide searching, filtering, sorting features to the Ocean's main ListView widget containing the log data
+* Better copy/paste functionality
+* Better looking action toolbar with more commands and icons attached to text buttons
+* More menu options and actions
+* Create and manage cross-platform executables so that people don't have to build Ocean themselves, if they don't want too
+* Create a github.io website for Ocean SQL Profiler
+* ...and more! Feel free to add to this list if I've missed something.
 
 Thanks!

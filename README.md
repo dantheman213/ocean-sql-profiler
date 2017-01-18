@@ -28,9 +28,27 @@ logging_collector = on
 
 This should run on Visual Studio 2015+ and build without any problems.
 
-### Building on MacOS or Linux ###
+### Building on Linux ###
 
-This should build perfectly fine using the Mono build tools. Learn more about Mono's xbuild tool, equivalent to Microsoft's msbuild tool, here:
+* Install Mono libraries
+
+````
+sudo su
+apt-get install mono-complete mono-xbuild
+````
+
+* Clone the project, cd into the working directory, and build it:
+
+````
+xbuild /p:TargetFrameworkVersion="v4.5" /p:Configuration=Release /p:DebugSymbols=False Ocean.csproj
+````
+
+And here it is running on Ubuntu 16.04 Desktop:
+![screenshot_linux](http://i.imgur.com/dGJAuUl.jpg)
+
+### Building on MacOS ###
+
+I haven't tried yet! Help me clarify the documentation, if you can. This should build perfectly fine using the Mono build tools. Learn more about Mono's xbuild tool, equivalent to Microsoft's msbuild tool, here:
 
 http://www.mono-project.com/docs/tools+libraries/tools/xbuild/
 

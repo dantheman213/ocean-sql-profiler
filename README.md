@@ -15,7 +15,7 @@ Cross-platform SQL profiler for PostgreSQL 9.3+. View your queries and functions
 * Edit your postgresql.conf file with the following:
 ````
 log_directory = 'pg_log'                    
-log_filename = 'postgresql-commands.log
+log_filename = 'postgresql-commands.log'
 log_statement = 'all'
 logging_collector = on
 ````
